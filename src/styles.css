@@ -71,7 +71,7 @@ section {
 
 /* MAIN */
 main {
-  padding-top: 0;
+  padding: 0;
 
   section > .container {
     display: grid;
