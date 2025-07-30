@@ -95,6 +95,10 @@ main {
         color: var(--yellow-500);
       }
 
+      .purple {
+        color: var(--purple-500);
+      }
+
       .italic {
         font-family: "DM_Sans_Italic", Arial, Helvetica, sans-serif;
       }
@@ -198,6 +202,17 @@ main {
       p {
         margin-top: 0;
         margin-bottom: 1.5rem;
+      }
+    }
+
+    #card-7 {
+      align-items: flex-start;
+      padding-left: 2rem;
+      h2 {
+        font-size: 1.6rem;
+      }
+      img {
+        width: 60%;
       }
     }
   }
