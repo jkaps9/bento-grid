@@ -220,5 +220,16 @@ main {
         width: 60%;
       }
     }
+
+    #card-8 {
+      align-items: flex-start;
+
+      h2 {
+        font-size: 1.6rem;
+      }
+      img {
+        width: 70%;
+      }
+    }
   }
 }
