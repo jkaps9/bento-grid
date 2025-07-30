@@ -39,6 +39,7 @@ body {
   min-height: 100vh;
   font-size: 18px;
   font-family: "DM_Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
 
   --purple-100: hsl(254, 88%, 90%);
   --purple-500: hsl(256, 67%, 59%);
