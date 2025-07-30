@@ -49,7 +49,7 @@ body {
 
 body > * {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1040px;
   padding: 1rem;
 }
 
@@ -73,7 +73,7 @@ main {
 
   section > .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem;
 
@@ -228,6 +228,57 @@ main {
       img {
         width: 70%;
       }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  main > section > .container {
+    max-height: 100vh;
+    display: grid;
+    gap: 2rem;
+    padding: 100px 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "s o o f"
+      "s o o f"
+      "s o o f"
+      "s o o f"
+      "s t r f"
+      "e t r f"
+      "e x v v";
+
+    #card-1 {
+      grid-area: o;
+    }
+
+    #card-2 {
+      grid-area: t;
+    }
+
+    #card-3 {
+      grid-area: r;
+    }
+
+    #card-4 {
+      grid-area: f;
+    }
+
+    #card-5 {
+      grid-area: v;
+    }
+
+    #card-6 {
+      grid-area: x;
+    }
+
+    #card-7 {
+      grid-area: s;
+    }
+
+    #card-8 {
+      grid-area: e;
     }
   }
 }
