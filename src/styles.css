@@ -107,7 +107,7 @@ main {
       }
 
       p {
-        margin: 1rem;
+        margin: 1rem 0;
       }
     }
 
@@ -167,6 +167,20 @@ main {
       img {
         width: 60%;
         transform: translateY(1rem);
+      }
+    }
+
+    #card-4 {
+      p {
+        text-align: center;
+      }
+    }
+
+    #card-5 {
+      h2 {
+        max-width: 12ch;
+        font-size: 1.5rem;
+        text-align: center;
       }
     }
   }
