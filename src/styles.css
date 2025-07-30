@@ -154,18 +154,25 @@ main {
       padding-bottom: 0;
     }
 
+    #card-3,
+    #card-6 {
+      align-items: flex-start;
+      overflow: hidden;
+
+      img {
+        width: 60%;
+      }
+    }
+
     #card-3 {
       padding-top: 0;
       padding-bottom: 0;
-      align-items: flex-start;
-      overflow: hidden;
 
       h2 {
         margin-bottom: 0;
       }
 
       img {
-        width: 60%;
         transform: translateY(1rem);
       }
     }
@@ -181,6 +188,16 @@ main {
         max-width: 12ch;
         font-size: 1.5rem;
         text-align: center;
+      }
+    }
+
+    #card-6 {
+      h2 {
+        font-size: 2.4rem;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
       }
     }
   }
